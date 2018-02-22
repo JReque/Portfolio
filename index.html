@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Portfolio</title>
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--  DEVICON -->
+	<link rel="stylesheet" href="css/devicon.css">
+
+	<!--  if you want colored versions -->
+	<link rel="stylesheet" href="css/devicon-colors.css">
+
+	<!-- Custom CSS -->
+	<link href="css/main.css" rel="stylesheet">
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>	
+
+</head>
+
+<body>
+
+	<header id="cabecera">
+		<div>
+			<hr>
+			<div>
+			<img src="img/jesus.jpg" alt="">
+			</div>
+		</div>
+		<h1>Jesús Requena</h1>
+		<h3>Web Developer</h3>
+		<div class="social">
+        <a href="#"><i class="icon fa fa-envelope"></i></a>
+        <a href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
+        <a href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+		<nav>
+			<ul>
+				<li><a href="#about" id="show" >About</a></li>
+				<li><a href="#skills" >Skills</a></li>
+				<li><a href="#projects" >Projects</a></li>               
+				<li><a href="#contact" >Contact</a></li>
+			</ul>
+	  </nav>
+	</header>	 
+	<main>
+
+	<div class="nav">
+  		<ul class="menu">
+	      <a href="#content-head"><li><i class="fa fa-home"></i>Inicio</li></a>
+	      <a href="#skills"><li><i class="fa fa-file-image-o"></i> Skills</li></a>
+	  		<a href="#projects"><li><i class="fa fa-user"></i> Projects</li></a>
+	  		<a href="#contact"><li><i class="fa fa-envelope"></i> Contact</li></a>
+  		</ul>
+  		<a class="hamburger-nav"></a>
+   </div>
+
+	<section id="content-head">
+		<a href="#skills" class="flecha"><img src="img/flecha.png" alt=""></a>
+	</section>
+	<section id="about">
+		<h2>Sobre mi</h2>
+		<p>Hola! Me llamo <strong>Jesús</strong>, soy <strong>desarrollador web</strong> y amante de la tecnología.</p><p> Me encanta <strong>JavaScript</strong>, especialmente cuando puedo usarlo para crear sitios webs increibles gracias a mis conocimientos de <strong>CSS</strong> .</p>
+		<span><a id="hide">&#x274C;</a></span>
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="cualidad" >
+			<h2>Design</h2>
+			<i class="devicon-html5-plain colored"></i>
+			<i class="devicon-css3-plain colored"></i>
+			<i class="devicon-sass-original colored"></i>
+			<p>Poseo conocimientos avanzados de HTML5, CSS3, SASS y otros lenguajes de marcado.</p>
+		</div>
+		<div class="cualidad" >
+			<h2>Code</h2>
+			<i class="devicon-javascript-plain colored"></i>
+			<i class="devicon-php-plain colored"></i>
+			<i class="devicon-android-plain colored"></i>
+			<p>He trabajado con lenguajes de Front-end y Back-end como Javascript, PHP, Java. Además de trabajar con distintos frameworks y librerías de estos lenguajes como Symfony o jQuery.</p>
+		</div>
+	</section>
+
+	<section id="projects">
+		<h2>Projects</h2>
+		<div class="user-project">
+			<img src="img/mastermind.svg" alt="img/mastermind.svg">
+			<div class="content">
+				<h3>Mastermind</h3>
+				<ul>
+					<li>Html</li>
+					<li>jQuery</li>
+					<li>CSS</li>
+				</ul>
+				<p>El famoso juego Mastermind hecho con JS y usando las librerías de jQuery. En ese proyecto hemos puesto en práctica el manejo de eventos y la interacción con el usuario.</p>
+				<a class="checkProject" href="#">Check it out</a>
+			</div>
+		</div>
+		
+		<div class="user-project">
+			<img src="img/rural.svg" alt="img/rural.svg">
+			<div class="content">
+				<h3>Casas Rurales</h3>
+				<ul>
+					<li>Html</li>
+					<li>CSS</li>					
+					<li>JS</li>
+				</ul>
+				<p>Proyecto sobre una web imaginaria de buscador de hoteles rurales, se pedía que la página fuese responsive y variase su contenido y forma con diferentes resoluciones.</p>
+				<a class="checkProject" href="#">Check it out</a>
+			</div>
+		</div>
+
+		<div class="user-project">
+			<img src="img/notas.svg" alt="img/notas.svg">
+			<div class="content">
+				<h3>Blog de notas</h3>
+				<ul>
+					<li>Html</li>
+					<li>CSS</li>
+				</ul>
+				<p>Página que emula un sitio web para la creación y asignación de tareas, ademas la implementación de una interfaz de usuario amigable.</p>
+				<a class="checkProject" href="#">Check it out</a>
+			</div>
+		</div>
+		<div class="user-project">
+			<img src="img/buscaminas.svg" alt="img/buscaminas.svg">
+			<div class="content">
+				<h3>Buscaminas</h3>
+				<ul>
+					<li>Html</li>
+					<li>CSS</li>
+					<li>JS</li>
+					<li>PHP</li>
+				</ul>
+				<p>Proyecto sobre el juego del buscaminas, en ella puse en práctica sesiones, arrays y funciones de php.</p>
+				<a class="checkProject" href="#">Check it out</a>
+			</div>
+		</div>
+	</section>    
+
+	<section id="contact">
+
+  		<form id="contactForm" method="POST">
+  		<h2 class="form-title">Contact</h2>
+		<div class="form-row">
+			<input class="campos" type="text" name="name" required="" placeholder="Name">
+			<input class="campos" type="email" name="email" required="" placeholder="E-mail">
+		</div>
+		<div class="form-row">
+			<textarea class="campos" rows="7" name="message" required="" placeholder="Message"></textarea>
+		</div>
+		<div class="form-row ">
+			<button type="submit" class="button">Send Message				
+			</button>
+		</div>
+		</form>
+		
+	 </section>
+
+	 </main>
+	 <footer class="footer">
+    <p>© Jesús Requena</p>
+    <p>Developer by <a href="https://github.com/rekenium">Jesús Requena</a></p>
+</footer>
+
+</body>
+</html>
