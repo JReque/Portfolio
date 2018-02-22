@@ -43,7 +43,7 @@ body>header{
     width: 90%;    
     min-height: 425px;
     max-width: 450px;
-    transform: translate(-50%,-65%);
+    transform: translate(-50%,-60%);
     background: white;    
     box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
