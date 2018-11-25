@@ -5,7 +5,7 @@ body{
 }
 
 body>header{
-    text-align: center;    
+    text-align: center;
 }
 
 .fa{
@@ -26,8 +26,12 @@ body>header{
     font-size: 20px;
     margin: 5px;
 }
+
 .fa:hover{
     color: white;
+}
+.close:hover{
+    color: black !important;
 }
 .icon:hover{
     background-color: black;
@@ -55,7 +59,6 @@ body>header{
 }
 #cabecera>h3{
     font-family: 'Work Sans', sans-serif;
-    font
 }
 
 #cabecera>div>div{
@@ -105,7 +108,7 @@ body>header{
 }
 .flecha>img{
     position: absolute;
-    left: 50%;
+    left: 45vw;
     width: 35px;
     height: 35px;
     fill: #fff;
@@ -207,7 +210,7 @@ p{
     display: none;
     position: relative;
     max-width: 450px;
-    top: calc(-84vh - (-35vh + 130px));
+    top: calc(-80vh - (-35vh + 130px));
 }
 #about>h2{
     margin-top: 0;
@@ -270,6 +273,7 @@ p{
     max-width: 100%;
     height: 50%;
     width: 100%;
+    max-height: 34vh;
     border-radius: 5px;
 }
 
@@ -341,7 +345,6 @@ p{
     color: #fff;
 }
 
-
 /* Desktop / others*/
 @media (min-width: 1024px){
 
@@ -377,4 +380,13 @@ p{
     margin-top: 5vh;
 }
 
+}
+/* Mobile / others*/
+@media (max-width: 360px){
+#cabecera{
+    transform: translate(-25.3vh,-43vh);
+}
+#about{
+    top: calc(-80.5vh - (-35vh + 130px));
+}
 }
